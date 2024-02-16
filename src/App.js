@@ -6,7 +6,7 @@ import Error from './Error';
 import StartScreen from './StartScreen';
 
 const initialState = {
-  initialState: [],
+  questions: [],
   // "loading", "error", "ready", "active", "finished"
   state: 'loading',
 };
