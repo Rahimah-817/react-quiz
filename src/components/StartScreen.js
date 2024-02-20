@@ -1,7 +1,7 @@
 import React from 'react';
 function StartScreen({ numQuestions, dispatch }) {
   return (
-    <div>
+    <div className='start'>
       <h2>Welcome To The React Quiz.</h2>
       <h3>{numQuestions} questions to test your React master</h3>
       <button
@@ -13,4 +13,6 @@ function StartScreen({ numQuestions, dispatch }) {
   );
 }
 
+
 export default StartScreen;
+
